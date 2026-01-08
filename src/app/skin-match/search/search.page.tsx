@@ -64,7 +64,7 @@ const canNext = useMemo(() => (data ? data.hasNext : false), [data])
 
 
 return (
-    <main className="mx-auto max-w-5xl p-4">
+    <main className="mx-auto max-w-5xl p-4 bg-[#F5FAF5]">
       <h1 className="text-center text-5xl font-semibold text-[#6B9080] my-10">Search ingredients</h1>
       
       <div className="flex flex-wrap items-end gap-4 mb-6">

@@ -9,7 +9,7 @@ export default async function SkinTypesPage() {
   const skinTypes = await apiFetch<SkinTypeDTO[]>("/skin-match/skin-types")
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen bg-[#F5FAF5]">
       <h1 className="text-center text-5xl font-semibold text-[#6B9080] my-10">
         Understanding Skin types
       </h1>
