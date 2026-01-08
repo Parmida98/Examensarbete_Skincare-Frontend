@@ -119,7 +119,7 @@ return (
 
           <ul className="mx-auto mt-10 max-w-4.5xl space-y-10">
             {data.items.map((i) => (
-              <li key={i.inciName} className="bg-[#A4C3B2] px-10 py-8 text-center">
+              <li key={i.inciName} className="bg-[#A4C3B2] px-10 py-8 text-center rounded-xl">
                 <div className="font-semibold">{i.inciName}</div>
                 <p className="text-sm mt-1">{i.description ?? "No description available."}</p>
               </li>
